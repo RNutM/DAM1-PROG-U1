@@ -3,7 +3,7 @@ Ejercicios Unidad 1
 
 Proyectos 2018-2019
 
-Abreviaturas de las carpetas contenidas en la rama DAM1:
+Abreviaturas de las carpetas contenidas en los repositorios DAM1:
 
 SSII - Sistemas informáticos
 BBDD - Bases de datos
