@@ -4,7 +4,7 @@ import java.util.*;
 public class Euroscompleto {
 
 	/**
-	 * Programa que pide una cantidad de euros y calcula el número de billetes
+	 * Programa que pide una cantidad de euros y calcula el nÃºmero de billetes
 	 * necesario para cubrir dicha cantidad y el resto en monedas de 1, 2, 0.5,
 	 * 0.20, 0.10, 0.05, 0.02, 0.01. Los tipos de billetes son: 500, 200, 100, 50,
 	 * 20, 10 y 5.
@@ -24,19 +24,19 @@ public class Euroscompleto {
 
 			} catch (Exception e) {
 				System.out.println(
-						"Debes poner un número entero - Probablemente has puesto una letra o caracter no permitido\n"
+						"Debes poner un nÃºmero entero - Probablemente has puesto una letra o caracter no permitido\n"
 								+ "En el caso de decimales debes poner una(,) y no un(.)");
-				System.out.println("La excepción es: " + e.getClass().getName() + "\n");
+				System.out.println("La excepciÃ³n es: " + e.getClass().getName() + "\n");
 
 				sc.nextLine();
 			}
 		} while (importe <= 0);
 
-		calcular(importe);// Envío el importe al método calcular
+		calcular(importe);// EnvÃ­o el importe al mÃ©todo calcular
 		sc.close();// Cierro Scanner
 	}
 
-	// Método para calcular
+	// MÃ©todo para calcular
 	public static void calcular(double importe) {
 
 		int monedasR = 0, centimos = 0;
@@ -62,11 +62,11 @@ public class Euroscompleto {
 				// Falla ya que por ejemplo la salida: 57.27 en su lugar devuelve
 				// 57.26999999999998
 
-				// Convertimos la multiplicación a un BigDecimal - Solución al problema
+				// Convertimos la multiplicaciÃ³n a un BigDecimal - SoluciÃ³n al problema
 				BigDecimal bd = BigDecimal.valueOf((devolver[i] * monedas[i]));
 
-				// Convertimos importe anterior a BigDecimal, restamos la mulplicación y
-				// por último convertimos el resultado a double para poder hacer: if(importe >=
+				// Convertimos importe anterior a BigDecimal, restamos la mulplicaciÃ³n y
+				// por Ãºltimo convertimos el resultado a double para poder hacer: if(importe >=
 				// monedas[i])
 				importe = BigDecimal.valueOf(importe).subtract(bd).doubleValue();
 			}
@@ -81,15 +81,15 @@ public class Euroscompleto {
 							|| monedas[i] == 20 || monedas[i] == 10 || monedas[i] == 5) {
 						monedasR = (int) Math.round(monedas[i]);// Decimales de billetes eliminados
 						// Indicamos que son billetes
-						System.out.println("Billetes de " + monedasR + " €: " + devolver[i]);
+						System.out.println("Billetes de " + monedasR + " â‚¬: " + devolver[i]);
 					}
-				} else if (monedas[i] == 1 || monedas[i] == 2) {// Monedas de 1 y 2 €
+				} else if (monedas[i] == 1 || monedas[i] == 2) {// Monedas de 1 y 2 â‚¬
 					monedasR = (int) Math.round(monedas[i]);// Decimales de monedas eliminados
 					// Indicamos que son monedas de euros
-					System.out.println("Monedas de " + monedasR + " €: " + devolver[i]);
+					System.out.println("Monedas de " + monedasR + " â‚¬: " + devolver[i]);
 				} else {
-					// Indicamos que son monedas de céntimos
-					if (monedas[i] == 0.5) centimos = 50;
+					// Indicamos que son monedas de cÃ©ntimos
+					if (monedas[i] == 0.5)	centimos = 50;
 					if (monedas[i] == 0.20)	centimos = 20;
 					if (monedas[i] == 0.10)	centimos = 10;
 					if (monedas[i] == 0.05)	centimos = 5;
@@ -99,6 +99,6 @@ public class Euroscompleto {
 				}
 			}
 		}
-		System.out.println("\n¡¡Muchas gracias por utilizar mi programa, hasta pronto!!");
-	}// Fin método Calcular
+		System.out.println("\nÂ¡Â¡Muchas gracias por utilizar mi programa, hasta pronto!!");
+	}// Fin mÃ©todo Calcular
 }// Fin clase Euroscompleto
