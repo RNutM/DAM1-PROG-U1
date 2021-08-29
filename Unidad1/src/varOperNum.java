@@ -23,7 +23,7 @@ public class varOperNum {// Varias operaciones con números
 				System.out.println("La excepción es esta --> " + e.getClass().getName());
 				s.nextLine();// Pregunto de nuevo en caso de error
 			}
-		} while (n1 <= 0 || n2 <= 0); // Si algo falla solicito los número de nuevo
+		} while (n1 <= 0 || n2 <= 0); // Si algo falla solicito los números de nuevo
 		s.close();// Cierro Scanner
 
 		// Realizo los calculos
