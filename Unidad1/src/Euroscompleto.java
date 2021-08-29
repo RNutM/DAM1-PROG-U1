@@ -8,6 +8,8 @@ public class Euroscompleto {
 	 * necesario para cubrir dicha cantidad y el resto en monedas de 1, 2, 0.5,
 	 * 0.20, 0.10, 0.05, 0.02, 0.01. Los tipos de billetes son: 500, 200, 100, 50,
 	 * 20, 10 y 5.
+	 * 
+	 * @author Robert G
 	 */
 
 	public static void main(String[] args) {
@@ -51,7 +53,7 @@ public class Euroscompleto {
 		// Recorremos todas las monedas
 		for (int i = 0; i < monedas.length; i++) {
 
-			// Si el importe actual, es superior a la moneda
+			// Si el importe actual es superior a la moneda
 			if (importe >= monedas[i]) {
 
 				// obtenemos cantidad de monedas
