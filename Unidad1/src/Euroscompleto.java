@@ -28,7 +28,7 @@ public class Euroscompleto {
 								+ "En el caso de decimales debes poner una(,) y no un(.)");
 				System.out.println("La excepción es: " + e.getClass().getName() + "\n");
 
-				sc.nextLine();
+				sc.nextLine();// Pregunto de nuevo en caso de error
 			}
 		} while (importe <= 0);
 
