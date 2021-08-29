@@ -9,7 +9,6 @@ public class Ejercicio01 {
 	 * 
 	 * @author Robert G
 	 */
-	
 	public static void main(String[] args) {
 
 		// Declaramos variables
