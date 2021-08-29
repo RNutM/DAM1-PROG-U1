@@ -7,6 +7,8 @@ public class Ejercicio03 {
 	 * Escribir el resultado de resolver la ecuación de segundo grado: ax2+bx+c = 0
 	 * introduciendo como datos por teclado, a, b y c. x=(-b±√(b^2-4ac))/2a --> Esta
 	 * formula nos devuelve dos soluciones
+	 * 
+	 * @author Robert G
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,7 +18,7 @@ public class Ejercicio03 {
 		float x1, x2, raiz = 0;
 
 		try {// Controlo errores para que no caiga el programa
-			// Pedimos al usuario que introduzca las incognitas para resolver la ecuación
+				// Pedimos al usuario que introduzca las incognitas para resolver la ecuación
 			Scanner s = new Scanner(System.in);
 
 			System.out.println("******Por favor solo números enteros******");

@@ -1,6 +1,13 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * Programa para hallar distintas áreas: Triángulo, Círculo, Rectángulo y
+ * Cuadrado
+ * 
+ * @author Robert
+ *
+ */
 public class Geometria {
 
 	public static void main(String[] args) {
@@ -15,8 +22,7 @@ public class Geometria {
 			// Solicito datos al usuario
 			try {// Controlo errores para que no caiga el programa
 				sc = new Scanner(System.in);
-				System.out.println("\nElije la operación a realizar"
-						+ "\n*****************************");
+				System.out.println("\nElije la operación a realizar" + "\n*****************************");
 				System.out.println("1. Área del triángulo");
 				System.out.println("2. Área del círculo");
 				System.out.println("3. Área del rectángulo");
