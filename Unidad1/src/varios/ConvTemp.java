@@ -20,8 +20,12 @@ public class ConvTemp {
 
 		do {
 			// Menú con 7 opciones
-			System.out.println("Elige la medida de entrada:\n" + "*****************************\n" + "1. Celsius (°C)\n"
-					+ "2. Kelvin (K)\n" + "3. Fahrenheit (°F)\n" + "4. Rankine (°R, °Ra)\n"
+			System.out.println("Elige la medida de entrada:\n" 
+					+ "*****************************\n" 
+					+ "1. Celsius (°C)\n"
+					+ "2. Kelvin (K)\n" 
+					+ "3. Fahrenheit (°F)\n" 
+					+ "4. Rankine (°R, °Ra)\n"
 					+ "5. Salir del programa\n");
 			// System.out.println("*****************************");
 			opciones = sc.nextInt();
@@ -65,7 +69,7 @@ public class ConvTemp {
 
 		try {// Controlo errores para que no caiga el programa
 
-			System.out.println("Introduzce la temperatura a convertir\n");
+			System.out.println("Introduce la temperatura a convertir\n");
 			c = sc.nextFloat();
 
 			k = (float) (c + 273.15);
@@ -75,7 +79,7 @@ public class ConvTemp {
 			System.out.println("\nHas introducido "
 						+ c + " grados Celsius que son:\n" 
 						+ k + " grados Kelvin\n" 
-						+ f + " grados Farenheit\n" 
+						+ f + " grados Fahrenheit\n" 
 						+ r + " grados Rankine\n");
 
 		} catch (InputMismatchException e) {// Informo de la excepción
@@ -90,7 +94,7 @@ public class ConvTemp {
 
 		try {// Controlo errores para que no caiga el programa
 
-			System.out.println("Introduzce la temperatura a convertir\n");
+			System.out.println("Introduce la temperatura a convertir\n");
 			k = sc.nextFloat();
 
 			c = (float) (k - 273.15);
@@ -100,7 +104,7 @@ public class ConvTemp {
 			System.out.println("\nHas introducido " 
 					+ k + " grados Kelvin que son:\n" 
 					+ c + " grados Celsius\n" 
-					+ f	+ " grados Farenheit\n" 
+					+ f	+ " grados Fahrenheit\n" 
 					+ r + " grados Rankine\n");
 
 		} catch (InputMismatchException e) {// Informo de la excepción
@@ -115,7 +119,7 @@ public class ConvTemp {
 
 		try {// Controlo errores para que no caiga el programa
 
-			System.out.println("Introduzce la temperatura a convertir\n");
+			System.out.println("Introduce la temperatura a convertir\n");
 			f = sc.nextFloat();
 
 			c = (float) (f - 32) * 5 / 9;
@@ -140,7 +144,7 @@ public class ConvTemp {
 
 		try {// Controlo errores para que no caiga el programa
 
-			System.out.println("Introduzce la temperatura a convertir\n");
+			System.out.println("Introduce la temperatura a convertir\n");
 			r = sc.nextFloat();
 
 			c = (float) (r - 491.67) * 5 / 9;
