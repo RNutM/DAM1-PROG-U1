@@ -3,13 +3,13 @@ import java.math.RoundingMode;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/**
- * Programa que calcule el número de kilómetros correspondientes a un número N
- * de millas marinas introducidas por teclado. (El número de metros de una milla
- * marina es de 1852).
- * 
- * @author Robert
- */
+	/**
+	 * Programa que calcule el número de kilómetros correspondientes a un número N
+	 * de millas marinas introducidas por teclado. (El número de metros de una milla
+	 * marina es de 1852).
+	 * 
+	 * @author Robert
+	 */
 
 public class Ejercicio02 {
 
