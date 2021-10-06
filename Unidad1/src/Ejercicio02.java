@@ -9,7 +9,6 @@ import java.util.Scanner;
  * marina es de 1852).
  * 
  * @author Robert
- *
  */
 
 public class Ejercicio02 {

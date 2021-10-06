@@ -6,6 +6,8 @@ public class Ejercicio04 {
 	 * Nota: Para pasar de grados centígrados a Kelvin hay que sumar 273,15 al
 	 * número de grados centígrados y para Fahrenheit hay que multiplicar por 9/5 y
 	 * sumar 32.
+	 * 
+	 * @author Robert G
 	 */
 
 	public static void main(String[] args) {
