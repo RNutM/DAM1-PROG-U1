@@ -1,0 +1,9 @@
+* Ejercicio21 - Números naturales
+* Ejercicio23 - Factorial de un número
+* Ejercicio24 - Divisores de un número
+* Ejercicio25 - Números primos (Calcular si es o no es)
+* Ejercicio26 - Números amigos
+* Ejercicio27 - Tabla de multiplicar de un número
+* Ejercicio33 - Números perfectos
+* Ejercicio34 - Números primos (Los N primeros)
+* Ejercicio35 - Dígitos de un número
