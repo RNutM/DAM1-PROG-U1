@@ -40,8 +40,8 @@ public class Ejercicio03 {
 
 			raiz = (float) Math.sqrt(op1);
 
-			x1 = (float) (-b + (raiz));
-			x2 = (float) (-b - (raiz));
+			x1 = (float) (-b - (raiz));
+			x2 = (float) (-b + (raiz));
 
 			double r1 = (x1 / op2);
 			double r2 = (x2 / op2);
